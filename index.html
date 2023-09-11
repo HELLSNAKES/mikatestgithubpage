@@ -1,97 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
 <head>
-    <title>Mika Spider 🕷️</title>
-	<link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #FFC0CB;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        
-        .container {
-            max-width: 800px;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-        }
-        
-        h1 {
-            color: #333;
-            text-align: center;
-        }
-        
-        p {
-            color: #666;
-        }
-        
-        img {
-            display: block;
-            margin: 0 auto;
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-        }
-        
-        h2 {
-            color: #555;
-            margin-top: 20px;
-        }
-        
-        .profile-link {
-            text-align: center;
-            margin-top: 20px;
-            color: red;
-            margin-bottom: 40px;
-        }
-        
-        .profile-link a {
-            color: red;
-            text-decoration: none;
-        }
-        
-        footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            text-align: center;
-            padding: 10px 0;
-          
-        }
-        
-        footer p {
-            margin: 0;
-        }
-        
-        footer a {
-            color: red;
-            text-decoration: none;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <title>HELLSNAKE</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+    <link rel="stylesheet" href="./style.css">
+
 </head>
+
 <body>
-    <div class="container">
-        <h1>Giáo hội Mika Spider 🕷️</h1>
-		
- 
-        <img src="https://i.imgur.com/vJqj9HM.png" alt="Artwork">
-        
-        <h2>About Mika Spider</h2>
-        <p>A member of Trinity's student council, Tea Party, and one of its three student council presidents. She is the childhood friend of Nagisa and has known her for ten years. She calls her Nagi-chan. Unlike the other two presidents of the Tea Party, she isn't particularly bright when it comes to politics, but her strength is not to be underestimated.</p>
-        <div class="profile-link">
-            <a href="https://discord.gg/HDgWuzuabu">Nhấn vô đây để tham gia giáo hội</a>
+    <!-- partial:index.partial.html -->
+    <div class="blog-slider">
+        <div class="blog-slider__wrp swiper-wrapper">
+            <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+
+                    <img src="https://cdn.discordapp.com/attachments/704930043872280608/1150754611439861792/vJqj9HM.jpg" alt="">
+                </div>
+                <div class="blog-slider__content">
+
+                    <div class="blog-slider__title">Mika Spider</div>
+                    <div class="blog-slider__text">A member of Trinity's student council, Tea Party, and one of its three student council presidents. She is the childhood friend of Nagisa and has known her for ten years. She calls her Nagi-chan. Unlike the other two presidents of the
+                        Tea Party, she isn't particularly bright when it comes to politics, but her strength is not to be underestimated. </div>
+                    <a href="https://discord.gg/HDgWuzuabu" class="blog-slider__button">Invite Discord Server</a>
+                </div>
+            </div>
+            <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="https://avatars.githubusercontent.com/u/63496374?s=400&u=10238d7a2400c418f12422fc04a55cf090eda93b&v=4" alt="">
+                </div>
+                <div class="blog-slider__content">
+
+                    <div class="blog-slider__title">NGUYEN VAN HA</div>
+                    <div class="blog-slider__text">DiscordBot Develop </div>
+                    <a href="https://www.facebook.com/hellsnake98" class="blog-slider__button">READ MORE</a>
+                </div>
+            </div>
+
+            <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="https://cdn.myanimelist.net/s/common/userimages/0105f5e6-f031-4307-a037-9e30559d1e2b_225w?s=e1d003d6162f33b4fafd018f8d7d3980" alt="">
+                </div>
+                <div class="blog-slider__content">
+
+                    <div class="blog-slider__title">Nothing</div>
+                    <div class="blog-slider__text">Nothing</div>
+                    <a href="https://www.facebook.com/hellsnake98/" class="blog-slider__button">READ MORE</a>
+                </div>
+            </div>
+
         </div>
+        <div class="blog-slider__pagination"></div>
     </div>
-    <footer>
-        <p>© HELLSNAKE</p>
-        <a href="https://fb.com/hellsnake98">fb.com/hellsnake98</a>
-    </footer>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+    <script src="./script.js"></script>
+
 </body>
+
 </html>
